@@ -17,6 +17,10 @@
 DropSpace is an easy way to self-host a file drop. Simply upload your file, and share the link. That's all!  
 DropSpace is built using [Laravel](https://laravel.com).
 
+## DropSpace Demo
+A demo instance is available <a href="https://dropdemo.leventdev.com" target="_blank">here!</a>
+
+
 > DropSpace is no longer being developed for **new** features, but **will be maintained** for bugs and security issues.
 
 ![](/public/mockups/download.png)
@@ -37,7 +41,8 @@ DropSpace is built using [Laravel](https://laravel.com).
 | Auto delete based on date expiry                                | :white_check_mark: |
 | Auto delete based on download count                             | :white_check_mark: |
 | File download via curl (click-to-copy command)                  | :white_check_mark: |
-| File storage in S3 storage                                      | :white_check_mark: |
+| File storage in S3 buckets                                      | :white_check_mark: |
+| File upload from clipboard (Just press command/controll + V)    | :white_check_mark: |
 <!-- list features todo -->
 
 ![](/public/mockups/upload-settings.png)
